@@ -1,17 +1,23 @@
 {
-	"geode": "$GEODE_VERSION",
-	"gd": {
-		"win": "2.2081",
-		"android": "2.2081",
-		"mac": "2.2081",
-		"ios": "2.2081"
-	},
-	"id": "$MOD_ID",
-	"name": "$MOD_NAME",
-	"version": "$MOD_VERSION",
-	"developer": "$MOD_DEVELOPER",
-	"description": "$MOD_DESCRIPTION",
-	"dependencies": {
-		"geode.node-ids": ">=v1.23.3"
-	}
+  "geode": "(deja el valor de tu plantilla)",
+  "gd": { "android": "2.2081", "win": "2.2081" },
+  "version": "v1.0.0",
+  "id": "daakfout.rtx-mod",
+  "name": "RTX Mod",
+  "developer": "daakfout",
+  "description": "Iluminación y glow dinámico estilo RTX.",
+  "settings": {
+    "enabled": {
+      "type": "bool",
+      "name": "Activar",
+      "default": true
+    },
+    "intensity": {
+      "type": "float",
+      "name": "Intensidad",
+      "default": 1.0,
+      "min": 0.1,
+      "max": 2.0
+    }
+  }
 }
